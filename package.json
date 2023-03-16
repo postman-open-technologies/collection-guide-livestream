@@ -13,6 +13,7 @@
     "@hapi/hawk": "^8.0.0",
     "openapi-to-postmanv2": "^4.10.2",
     "postman-code-generators": "^1.5.0",
+    "postman-collection": "^4.1.7",
     "postman-collection-code-generators": "^0.0.2",
     "request": "^2.88.2"
   }

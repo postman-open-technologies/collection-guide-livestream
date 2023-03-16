@@ -1,29 +1,36 @@
 {
 	"info": {
-		"_postman_id": "d29f64ac-a19f-4e3e-8c91-9fde3c68a758",
-		"name": "Sample",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "21505573"
-	}, 
+		"name": "Scratch Collection",
+		"description": "This is a collection authroed from scratch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Request 1",
 			"request": {
 				"method": "POST",
 				"header": [],
-				"url": {
-					"raw": "https://postman-echo.com/post",
-					"protocol": "https",
-					"host": [
-						"postman-echo",
-						"com"
-					],
-					"path": [
-						"post"
+				"url": "https://google.com",
+				"body": {
+					"mode": "raw",
+					"raw": "{'name': 'Debo'}"
+				},
+				"auth": {
+					"type": "basic",
+					"basic": [
+					  {
+						"key": "password",
+						"value": "your_secure_password",
+						"type": "string"
+					  },
+					  {
+						"key": "username",
+						"value": "your_unique_username",
+						"type": "string"
+					  }
 					]
-				}
-			},
-			"response": []
+				  }
+			}
 		}
 	]
 }
